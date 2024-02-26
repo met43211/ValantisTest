@@ -1,0 +1,29 @@
+@import '../../static/styles/index.scss';
+
+.arrows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    button{
+        background-color: $main;
+        border-radius: 20px;
+        padding: 15px 25px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        margin: 10px;
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+    button:hover{
+        scale: 1.1;
+    }
+    .disabled{
+        background-color: grey;
+    }
+    h3{
+        font-size: 25px;
+    }
+}

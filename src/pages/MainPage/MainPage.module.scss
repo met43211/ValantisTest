@@ -1,0 +1,21 @@
+@import '../../static/styles/index.scss';
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main{
+        max-width: 1200px;
+        padding: 40px;
+        width: 100%;
+        border-radius: 40px;
+        color: $main;
+        background-color: rgb(233, 229, 223);
+        min-height: calc(100vh - 210px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    margin-bottom: 30px;
+}

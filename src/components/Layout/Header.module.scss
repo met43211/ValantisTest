@@ -1,0 +1,24 @@
+@import '../../static/styles/index.scss';
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    .header-inner{
+        width: 100%;
+        background-color: rgb(233, 229, 223);
+        max-width: 1200px;
+        border-radius: 100px;
+        padding: 0px 40px;
+        color:$main;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: $main
+        }
+    }
+}
